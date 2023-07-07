@@ -1,12 +1,10 @@
 import {Title} from './title';
-import {Button} from './button';
 import {Input} from './input';
 
 function App() {
   return (
-      <main className="App w-full px-4">
+      <main className="App ml-[10%] mr-[10%] px-4 bg-black">
         <Title />
-        <Button />
         <Input />
       </main>
   );
