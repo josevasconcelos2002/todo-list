@@ -1,12 +1,16 @@
 import {Title} from './title';
-import {Input} from './input';
+import { Button } from './button';
+import { Select } from './select';
 
 function App() {
   return (
-      <main className="App ml-[10%] mr-[10%] px-4 bg-black">
+    <body className= "bg-gray-200 h-full">
+      <main className="App ml-[10%] mr-[10%] px-4">
         <Title />
-        <Input />
+        <Button />
+        <Select />
       </main>
+    </body>
   );
 }
 
